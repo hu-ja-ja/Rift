@@ -1,0 +1,19 @@
+{
+  "required": true,
+  "minVersion": "0.7.7",
+  "compatibilityLevel": "JAVA_8",
+  "target": "@env(DEFAULT)",
+  "package": "org.dimdev.rift.mixin.core",
+  "refmap": "mixins.rift.refmap.json",
+  "mixins": [
+    "MixinMinecraftServer",
+    "MixinVanillaPack"
+  ],
+  "client": [
+    "client.MixinClientBrandRetriever",
+    "client.MixinLayerArmorBase",
+    "client.MixinBlockFluidRenderer",
+    "client.MixinWaterFluid",
+    "client.MixinLavaFluid"
+  ]
+}
