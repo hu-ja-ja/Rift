@@ -13,12 +13,12 @@
     "mainClass": "net.minecraft.launchwrapper.Launch",
     "libraries": [
         {
-            "name": "com.github.Chocohead:Rift:jitpack-SNAPSHOT",
-            "url": "https://www.jitpack.io/"
+            "name": "com.github.dimdev:Rift:1.13",
+            "url": "https://raw.githubusercontent.com/hu-ja-ja/Rift/master/"
         },
         {
             "name": "org.dimdev:mixin:0.7.11-SNAPSHOT",
-            "url": "https://www.dimdev.org/maven/"
+            "url": "https://raw.githubusercontent.com/hu-ja-ja/Rift/master/"
         },
         {
             "name": "org.ow2.asm:asm:6.2",
