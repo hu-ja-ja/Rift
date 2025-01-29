@@ -1,0 +1,324 @@
+{
+  "mappings": {
+    "org/dimdev/rift/mixin/hook/MixinArgumentTypes": {
+      "registerArgumentTypes": "Ldz;a()V"
+    },
+    "org/dimdev/rift/mixin/hook/MixinRecipeManager": {
+      "onResourceManagerReload": "Lavl;a(Lvf;)V"
+    },
+    "org/dimdev/rift/mixin/core/client/MixinItemRenderer": {
+      "Lnet/minecraft/util/registry/IRegistry;getKey(Ljava/lang/Object;)Lnet/minecraft/util/ResourceLocation;": "Lfc;b(Ljava/lang/Object;)Lpc;"
+    },
+    "org/dimdev/rift/mixin/hook/MixinBlock": {
+      "registerBlocks": "Lbcs;t()V",
+      "Lnet/minecraft/util/registry/IRegistry;BLOCK:Lnet/minecraft/util/registry/IRegistry;": "Lfc;g:Lfc;"
+    },
+    "org/dimdev/rift/mixin/hook/MixinBootstrap": {
+      "registerDispenserBehaviors": "Lpf;b()V",
+      "Lnet/minecraft/init/Bootstrap;redirectOutputToLog()V": "Lpf;d()V",
+      "register": "Lpf;c()V"
+    },
+    "org/dimdev/rift/mixin/hook/MixinNetHandlerPlayServer": {
+      "processCustomPayload": "Luc;a(Lmp;)V"
+    },
+    "org/dimdev/rift/mixin/hook/MixinFurnace": {
+      "getBurnTimes": "Lbju;p()Ljava/util/Map;"
+    },
+    "org/dimdev/rift/mixin/core/client/MixinMainMenu": {
+      "addSingleplayerMultiplayerButtons": "Lcki;b(II)V",
+      "Lnet/minecraft/client/gui/GuiMainMenu;addButton(Lnet/minecraft/client/gui/GuiButton;)Lnet/minecraft/client/gui/GuiButton;": "Lcki;a(Lcgu;)Lcgu;"
+    },
+    "org/dimdev/rift/mixin/hook/MixinEnumConnectionState$Handshaking": {
+      "net/minecraft/network/EnumConnectionState$1": "hx$1"
+    },
+    "org/dimdev/rift/mixin/hook/MixinPotion": {
+      "registerPotions": "Laej;m()V"
+    },
+    "org/dimdev/rift/mixin/hook/client/MixinEntityPlayerSP": {
+      "displayGui": "Lctj;a(Ladl;)V",
+      "displayGUIChest": "Lctj;a(Lade;)V"
+    },
+    "org/dimdev/rift/mixin/hook/MixinChunk": {
+      "onUnload": "Lbnj;q()V",
+      "onLoad": "Lbnj;p()V"
+    },
+    "org/dimdev/rift/mixin/hook/MixinFluid": {
+      "registerAll": "Lbyv;l()V",
+      "Lnet/minecraft/util/registry/IRegistry;FLUID:Lnet/minecraft/util/registry/IRegistry;": "Lfc;h:Lfc;"
+    },
+    "org/dimdev/rift/mixin/optifine/client/MixinBlockFluidRenderer": {
+      "render(Lnet/minecraft/world/IWorldReader;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/client/renderer/BufferBuilder;Lnet/minecraft/fluid/IFluidState;)Z": "Lcuv;a(Laye;Lel;Lctq;Lbyw;)Z",
+      "Lnet/minecraft/client/renderer/BlockFluidRenderer;atlasSpritesWater:[Lnet/minecraft/client/renderer/texture/TextureAtlasSprite;": "Lcuv;b:[Lddm;",
+      "Lnet/minecraft/client/renderer/BlockFluidRenderer;atlasSpritesLava:[Lnet/minecraft/client/renderer/texture/TextureAtlasSprite;": "Lcuv;a:[Lddm;"
+    },
+    "org/dimdev/rift/mixin/hook/MixinEnumConnectionState$Login": {
+      "net/minecraft/network/EnumConnectionState$4": "hx$4"
+    },
+    "org/dimdev/rift/mixin/hook/MixinEnchantment": {
+      "registerEnchantments": "Lawe;h()V"
+    },
+    "org/dimdev/rift/mixin/hook/MixinEnumConnectionState$Status": {
+      "net/minecraft/network/EnumConnectionState$3": "hx$3"
+    },
+    "org/dimdev/rift/mixin/hook/client/MixinNetHandlerPlayClient": {
+      "handleCustomPayload": "Lcrd;a(Ljy;)V",
+      "handleUpdateTileEntity": "Lcrd;a(Lji;)V"
+    },
+    "org/dimdev/rift/mixin/hook/MixinWorldServer": {
+      "createChunkProvider": "Ltd;r()Lbnc;",
+      "Lnet/minecraft/world/dimension/Dimension;createChunkGenerator()Lnet/minecraft/world/gen/IChunkGenerator;": "Lboc;n()Lbmy;"
+    },
+    "org/dimdev/rift/mixin/hook/MixinParticleType": {
+      "registerAll": "Lfl;c()V"
+    },
+    "org/dimdev/rift/mixin/hook/MixinItem": {
+      "registerItems": "Lata;r()V"
+    },
+    "org/dimdev/rift/mixin/core/client/MixinLayerArmorBase": {
+      "getArmorResource(Lnet/minecraft/item/ItemArmor;ZLjava/lang/String;)Lnet/minecraft/util/ResourceLocation;": "Ldbf;a(Larb;ZLjava/lang/String;)Lpc;"
+    },
+    "org/dimdev/rift/mixin/hook/client/MixinGuiIngame": {
+      "renderGameOverlay": "Lcgl;a(F)V"
+    },
+    "org/dimdev/rift/mixin/hook/client/MixinGameSettings": {
+      "loadOptions": "Lcfw;a()V"
+    },
+    "org/dimdev/rift/mixin/hook/MixinBiome": {
+      "registerBiomes": "Layu;t()V",
+      "register": "Layu;a(ILjava/lang/String;Layu;)V"
+    },
+    "org/dimdev/rift/mixin/core/MixinMinecraftServer": {
+      "getCommandSource": "Lnet/minecraft/server/MinecraftServer;aJ()Lbu;"
+    },
+    "org/dimdev/rift/mixin/hook/MixinSoundEvent": {
+      "registerSounds": "Lwi;b()V"
+    },
+    "org/dimdev/rift/mixin/hook/client/MixinMinecraft": {
+      "processKeyBinds": "Lcft;aw()V",
+      "Lnet/minecraft/resources/ResourcePackList;addPackFinder(Lnet/minecraft/resources/IPackFinder;)V": "Lux;a(Luy;)V",
+      "getAmbientMusicType": "Lcft;O()Ldgq$a;",
+      "runTick": "Lcft;m()V"
+    },
+    "org/dimdev/rift/mixin/hook/MixinEnumConnectionState$Play": {
+      "net/minecraft/network/EnumConnectionState$2": "hx$2"
+    },
+    "org/dimdev/rift/mixin/hook/MixinMinecraftServer": {
+      "Lnet/minecraft/resources/ResourcePackList;reloadPacksFromFinders()V": "Lux;a()V",
+      "Lnet/minecraft/server/management/PlayerList;func_212504_a(Lnet/minecraft/world/WorldServer;)V": "Lvp;a(Ltd;)V",
+      "loadDataPacks": "Lnet/minecraft/server/MinecraftServer;a(Ljava/io/File;Lccb;)V",
+      "tick": "Lnet/minecraft/server/MinecraftServer;a(Ljava/util/function/BooleanSupplier;)V",
+      "func_212369_a": "Lnet/minecraft/server/MinecraftServer;a(Lccc;Lcck;Lccb;Layd;)V"
+    }
+  },
+  "data": {
+    "notch": {
+      "org/dimdev/rift/mixin/hook/MixinArgumentTypes": {
+        "registerArgumentTypes": "Ldz;a()V"
+      },
+      "org/dimdev/rift/mixin/hook/MixinRecipeManager": {
+        "onResourceManagerReload": "Lavl;a(Lvf;)V"
+      },
+      "org/dimdev/rift/mixin/core/client/MixinItemRenderer": {
+        "Lnet/minecraft/util/registry/IRegistry;getKey(Ljava/lang/Object;)Lnet/minecraft/util/ResourceLocation;": "Lfc;b(Ljava/lang/Object;)Lpc;"
+      },
+      "org/dimdev/rift/mixin/hook/MixinBlock": {
+        "registerBlocks": "Lbcs;t()V",
+        "Lnet/minecraft/util/registry/IRegistry;BLOCK:Lnet/minecraft/util/registry/IRegistry;": "Lfc;g:Lfc;"
+      },
+      "org/dimdev/rift/mixin/hook/MixinBootstrap": {
+        "registerDispenserBehaviors": "Lpf;b()V",
+        "Lnet/minecraft/init/Bootstrap;redirectOutputToLog()V": "Lpf;d()V",
+        "register": "Lpf;c()V"
+      },
+      "org/dimdev/rift/mixin/hook/MixinNetHandlerPlayServer": {
+        "processCustomPayload": "Luc;a(Lmp;)V"
+      },
+      "org/dimdev/rift/mixin/hook/MixinFurnace": {
+        "getBurnTimes": "Lbju;p()Ljava/util/Map;"
+      },
+      "org/dimdev/rift/mixin/core/client/MixinMainMenu": {
+        "addSingleplayerMultiplayerButtons": "Lcki;b(II)V",
+        "Lnet/minecraft/client/gui/GuiMainMenu;addButton(Lnet/minecraft/client/gui/GuiButton;)Lnet/minecraft/client/gui/GuiButton;": "Lcki;a(Lcgu;)Lcgu;"
+      },
+      "org/dimdev/rift/mixin/hook/MixinEnumConnectionState$Handshaking": {
+        "net/minecraft/network/EnumConnectionState$1": "hx$1"
+      },
+      "org/dimdev/rift/mixin/hook/MixinPotion": {
+        "registerPotions": "Laej;m()V"
+      },
+      "org/dimdev/rift/mixin/hook/client/MixinEntityPlayerSP": {
+        "displayGui": "Lctj;a(Ladl;)V",
+        "displayGUIChest": "Lctj;a(Lade;)V"
+      },
+      "org/dimdev/rift/mixin/hook/MixinChunk": {
+        "onUnload": "Lbnj;q()V",
+        "onLoad": "Lbnj;p()V"
+      },
+      "org/dimdev/rift/mixin/hook/MixinFluid": {
+        "registerAll": "Lbyv;l()V",
+        "Lnet/minecraft/util/registry/IRegistry;FLUID:Lnet/minecraft/util/registry/IRegistry;": "Lfc;h:Lfc;"
+      },
+      "org/dimdev/rift/mixin/optifine/client/MixinBlockFluidRenderer": {
+        "render(Lnet/minecraft/world/IWorldReader;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/client/renderer/BufferBuilder;Lnet/minecraft/fluid/IFluidState;)Z": "Lcuv;a(Laye;Lel;Lctq;Lbyw;)Z",
+        "Lnet/minecraft/client/renderer/BlockFluidRenderer;atlasSpritesWater:[Lnet/minecraft/client/renderer/texture/TextureAtlasSprite;": "Lcuv;b:[Lddm;",
+        "Lnet/minecraft/client/renderer/BlockFluidRenderer;atlasSpritesLava:[Lnet/minecraft/client/renderer/texture/TextureAtlasSprite;": "Lcuv;a:[Lddm;"
+      },
+      "org/dimdev/rift/mixin/hook/MixinEnumConnectionState$Login": {
+        "net/minecraft/network/EnumConnectionState$4": "hx$4"
+      },
+      "org/dimdev/rift/mixin/hook/MixinEnchantment": {
+        "registerEnchantments": "Lawe;h()V"
+      },
+      "org/dimdev/rift/mixin/hook/MixinEnumConnectionState$Status": {
+        "net/minecraft/network/EnumConnectionState$3": "hx$3"
+      },
+      "org/dimdev/rift/mixin/hook/client/MixinNetHandlerPlayClient": {
+        "handleCustomPayload": "Lcrd;a(Ljy;)V",
+        "handleUpdateTileEntity": "Lcrd;a(Lji;)V"
+      },
+      "org/dimdev/rift/mixin/hook/MixinWorldServer": {
+        "createChunkProvider": "Ltd;r()Lbnc;",
+        "Lnet/minecraft/world/dimension/Dimension;createChunkGenerator()Lnet/minecraft/world/gen/IChunkGenerator;": "Lboc;n()Lbmy;"
+      },
+      "org/dimdev/rift/mixin/hook/MixinParticleType": {
+        "registerAll": "Lfl;c()V"
+      },
+      "org/dimdev/rift/mixin/hook/MixinItem": {
+        "registerItems": "Lata;r()V"
+      },
+      "org/dimdev/rift/mixin/core/client/MixinLayerArmorBase": {
+        "getArmorResource(Lnet/minecraft/item/ItemArmor;ZLjava/lang/String;)Lnet/minecraft/util/ResourceLocation;": "Ldbf;a(Larb;ZLjava/lang/String;)Lpc;"
+      },
+      "org/dimdev/rift/mixin/hook/client/MixinGuiIngame": {
+        "renderGameOverlay": "Lcgl;a(F)V"
+      },
+      "org/dimdev/rift/mixin/hook/client/MixinGameSettings": {
+        "loadOptions": "Lcfw;a()V"
+      },
+      "org/dimdev/rift/mixin/hook/MixinBiome": {
+        "registerBiomes": "Layu;t()V",
+        "register": "Layu;a(ILjava/lang/String;Layu;)V"
+      },
+      "org/dimdev/rift/mixin/core/MixinMinecraftServer": {
+        "getCommandSource": "Lnet/minecraft/server/MinecraftServer;aJ()Lbu;"
+      },
+      "org/dimdev/rift/mixin/hook/MixinSoundEvent": {
+        "registerSounds": "Lwi;b()V"
+      },
+      "org/dimdev/rift/mixin/hook/client/MixinMinecraft": {
+        "processKeyBinds": "Lcft;aw()V",
+        "Lnet/minecraft/resources/ResourcePackList;addPackFinder(Lnet/minecraft/resources/IPackFinder;)V": "Lux;a(Luy;)V",
+        "getAmbientMusicType": "Lcft;O()Ldgq$a;",
+        "runTick": "Lcft;m()V"
+      },
+      "org/dimdev/rift/mixin/hook/MixinEnumConnectionState$Play": {
+        "net/minecraft/network/EnumConnectionState$2": "hx$2"
+      },
+      "org/dimdev/rift/mixin/hook/MixinMinecraftServer": {
+        "Lnet/minecraft/resources/ResourcePackList;reloadPacksFromFinders()V": "Lux;a()V",
+        "Lnet/minecraft/server/management/PlayerList;func_212504_a(Lnet/minecraft/world/WorldServer;)V": "Lvp;a(Ltd;)V",
+        "loadDataPacks": "Lnet/minecraft/server/MinecraftServer;a(Ljava/io/File;Lccb;)V",
+        "tick": "Lnet/minecraft/server/MinecraftServer;a(Ljava/util/function/BooleanSupplier;)V",
+        "func_212369_a": "Lnet/minecraft/server/MinecraftServer;a(Lccc;Lcck;Lccb;Layd;)V"
+      }
+    },
+    "searge": {
+      "org/dimdev/rift/mixin/hook/MixinArgumentTypes": {
+        "registerArgumentTypes": "Lnet/minecraft/command/arguments/ArgumentTypes;func_197483_a()V"
+      },
+      "org/dimdev/rift/mixin/hook/MixinRecipeManager": {
+        "onResourceManagerReload": "Lnet/minecraft/item/crafting/RecipeManager;func_195410_a(Lnet/minecraft/resources/IResourceManager;)V"
+      },
+      "org/dimdev/rift/mixin/core/client/MixinItemRenderer": {
+        "Lnet/minecraft/util/registry/IRegistry;getKey(Ljava/lang/Object;)Lnet/minecraft/util/ResourceLocation;": "Lnet/minecraft/util/registry/IRegistry;func_177774_c(Ljava/lang/Object;)Lnet/minecraft/util/ResourceLocation;"
+      },
+      "org/dimdev/rift/mixin/hook/MixinBlock": {
+        "registerBlocks": "Lnet/minecraft/block/Block;func_149671_p()V",
+        "Lnet/minecraft/util/registry/IRegistry;BLOCK:Lnet/minecraft/util/registry/IRegistry;": "Lnet/minecraft/util/registry/IRegistry;field_212618_g:Lnet/minecraft/util/registry/IRegistry;"
+      },
+      "org/dimdev/rift/mixin/hook/MixinBootstrap": {
+        "registerDispenserBehaviors": "Lnet/minecraft/init/Bootstrap;func_151353_a()V",
+        "Lnet/minecraft/init/Bootstrap;redirectOutputToLog()V": "Lnet/minecraft/init/Bootstrap;func_179868_d()V",
+        "register": "Lnet/minecraft/init/Bootstrap;func_151354_b()V"
+      },
+      "org/dimdev/rift/mixin/hook/MixinNetHandlerPlayServer": {
+        "processCustomPayload": "Lnet/minecraft/network/NetHandlerPlayServer;func_147349_a(Lnet/minecraft/network/play/client/CPacketCustomPayload;)V"
+      },
+      "org/dimdev/rift/mixin/hook/MixinFurnace": {
+        "getBurnTimes": "Lnet/minecraft/tileentity/TileEntityFurnace;func_201564_p()Ljava/util/Map;"
+      },
+      "org/dimdev/rift/mixin/core/client/MixinMainMenu": {
+        "addSingleplayerMultiplayerButtons": "Lnet/minecraft/client/gui/GuiMainMenu;func_73969_a(II)V",
+        "Lnet/minecraft/client/gui/GuiMainMenu;addButton(Lnet/minecraft/client/gui/GuiButton;)Lnet/minecraft/client/gui/GuiButton;": "Lnet/minecraft/client/gui/GuiMainMenu;func_189646_b(Lnet/minecraft/client/gui/GuiButton;)Lnet/minecraft/client/gui/GuiButton;"
+      },
+      "org/dimdev/rift/mixin/hook/MixinPotion": {
+        "registerPotions": "Lnet/minecraft/potion/Potion;func_188411_k()V"
+      },
+      "org/dimdev/rift/mixin/hook/client/MixinEntityPlayerSP": {
+        "displayGui": "Lnet/minecraft/client/entity/EntityPlayerSP;func_180468_a(Lnet/minecraft/world/IInteractionObject;)V",
+        "displayGUIChest": "Lnet/minecraft/client/entity/EntityPlayerSP;func_71007_a(Lnet/minecraft/inventory/IInventory;)V"
+      },
+      "org/dimdev/rift/mixin/hook/MixinChunk": {
+        "onUnload": "Lnet/minecraft/world/chunk/Chunk;func_76623_d()V",
+        "onLoad": "Lnet/minecraft/world/chunk/Chunk;func_76631_c()V"
+      },
+      "org/dimdev/rift/mixin/hook/MixinFluid": {
+        "registerAll": "Lnet/minecraft/fluid/Fluid;func_207195_i()V",
+        "Lnet/minecraft/util/registry/IRegistry;FLUID:Lnet/minecraft/util/registry/IRegistry;": "Lnet/minecraft/util/registry/IRegistry;field_212619_h:Lnet/minecraft/util/registry/IRegistry;"
+      },
+      "org/dimdev/rift/mixin/optifine/client/MixinBlockFluidRenderer": {
+        "render(Lnet/minecraft/world/IWorldReader;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/client/renderer/BufferBuilder;Lnet/minecraft/fluid/IFluidState;)Z": "Lnet/minecraft/client/renderer/BlockFluidRenderer;func_205346_a(Lnet/minecraft/world/IWorldReader;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/client/renderer/BufferBuilder;Lnet/minecraft/fluid/IFluidState;)Z",
+        "Lnet/minecraft/client/renderer/BlockFluidRenderer;atlasSpritesWater:[Lnet/minecraft/client/renderer/texture/TextureAtlasSprite;": "Lnet/minecraft/client/renderer/BlockFluidRenderer;field_178271_b:[Lnet/minecraft/client/renderer/texture/TextureAtlasSprite;",
+        "Lnet/minecraft/client/renderer/BlockFluidRenderer;atlasSpritesLava:[Lnet/minecraft/client/renderer/texture/TextureAtlasSprite;": "Lnet/minecraft/client/renderer/BlockFluidRenderer;field_178272_a:[Lnet/minecraft/client/renderer/texture/TextureAtlasSprite;"
+      },
+      "org/dimdev/rift/mixin/hook/MixinEnchantment": {
+        "registerEnchantments": "Lnet/minecraft/enchantment/Enchantment;func_185257_f()V"
+      },
+      "org/dimdev/rift/mixin/hook/client/MixinNetHandlerPlayClient": {
+        "handleCustomPayload": "Lnet/minecraft/client/network/NetHandlerPlayClient;func_147240_a(Lnet/minecraft/network/play/server/SPacketCustomPayload;)V",
+        "handleUpdateTileEntity": "Lnet/minecraft/client/network/NetHandlerPlayClient;func_147273_a(Lnet/minecraft/network/play/server/SPacketUpdateTileEntity;)V"
+      },
+      "org/dimdev/rift/mixin/hook/MixinWorldServer": {
+        "createChunkProvider": "Lnet/minecraft/world/WorldServer;func_72970_h()Lnet/minecraft/world/chunk/IChunkProvider;",
+        "Lnet/minecraft/world/dimension/Dimension;createChunkGenerator()Lnet/minecraft/world/gen/IChunkGenerator;": "Lnet/minecraft/world/dimension/Dimension;func_186060_c()Lnet/minecraft/world/gen/IChunkGenerator;"
+      },
+      "org/dimdev/rift/mixin/hook/MixinParticleType": {
+        "registerAll": "Lnet/minecraft/particles/ParticleType;func_197576_c()V"
+      },
+      "org/dimdev/rift/mixin/hook/MixinItem": {
+        "registerItems": "Lnet/minecraft/item/Item;func_150900_l()V"
+      },
+      "org/dimdev/rift/mixin/core/client/MixinLayerArmorBase": {
+        "getArmorResource(Lnet/minecraft/item/ItemArmor;ZLjava/lang/String;)Lnet/minecraft/util/ResourceLocation;": "Lnet/minecraft/client/renderer/entity/layers/LayerArmorBase;func_177178_a(Lnet/minecraft/item/ItemArmor;ZLjava/lang/String;)Lnet/minecraft/util/ResourceLocation;"
+      },
+      "org/dimdev/rift/mixin/hook/client/MixinGuiIngame": {
+        "renderGameOverlay": "Lnet/minecraft/client/gui/GuiIngame;func_175180_a(F)V"
+      },
+      "org/dimdev/rift/mixin/hook/client/MixinGameSettings": {
+        "loadOptions": "Lnet/minecraft/client/GameSettings;func_74300_a()V"
+      },
+      "org/dimdev/rift/mixin/hook/MixinBiome": {
+        "registerBiomes": "Lnet/minecraft/world/biome/Biome;func_185358_q()V",
+        "register": "Lnet/minecraft/world/biome/Biome;func_185354_a(ILjava/lang/String;Lnet/minecraft/world/biome/Biome;)V"
+      },
+      "org/dimdev/rift/mixin/core/MixinMinecraftServer": {
+        "getCommandSource": "Lnet/minecraft/server/MinecraftServer;func_195573_aM()Lnet/minecraft/command/CommandSource;"
+      },
+      "org/dimdev/rift/mixin/hook/MixinSoundEvent": {
+        "registerSounds": "Lnet/minecraft/util/SoundEvent;func_187504_b()V"
+      },
+      "org/dimdev/rift/mixin/hook/client/MixinMinecraft": {
+        "processKeyBinds": "Lnet/minecraft/client/Minecraft;func_184117_aA()V",
+        "Lnet/minecraft/resources/ResourcePackList;addPackFinder(Lnet/minecraft/resources/IPackFinder;)V": "Lnet/minecraft/resources/ResourcePackList;func_198982_a(Lnet/minecraft/resources/IPackFinder;)V",
+        "getAmbientMusicType": "Lnet/minecraft/client/Minecraft;func_147109_W()Lnet/minecraft/client/audio/MusicTicker$MusicType;",
+        "runTick": "Lnet/minecraft/client/Minecraft;func_71407_l()V"
+      },
+      "org/dimdev/rift/mixin/hook/MixinMinecraftServer": {
+        "Lnet/minecraft/resources/ResourcePackList;reloadPacksFromFinders()V": "Lnet/minecraft/resources/ResourcePackList;func_198983_a()V",
+        "loadDataPacks": "Lnet/minecraft/server/MinecraftServer;func_195560_a(Ljava/io/File;Lnet/minecraft/world/storage/WorldInfo;)V",
+        "tick": "Lnet/minecraft/server/MinecraftServer;func_71217_p(Ljava/util/function/BooleanSupplier;)V",
+        "func_212369_a": "Lnet/minecraft/server/MinecraftServer;func_212369_a(Lnet/minecraft/world/storage/ISaveHandler;Lnet/minecraft/world/storage/WorldSavedDataStorage;Lnet/minecraft/world/storage/WorldInfo;Lnet/minecraft/world/WorldSettings;)V"
+      }
+    }
+  }
+}

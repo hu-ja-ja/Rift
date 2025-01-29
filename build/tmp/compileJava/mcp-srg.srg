@@ -1,0 +1,70 @@
+FD: org/dimdev/rift/mixin/core/client/MixinBlockFluidRenderer/atlasSpriteWaterOverlay org/dimdev/rift/mixin/core/client/MixinBlockFluidRenderer/field_187501_d
+FD: org/dimdev/rift/mixin/core/client/MixinMainMenu/panorama org/dimdev/rift/mixin/core/client/MixinMainMenu/field_209101_K
+FD: org/dimdev/rift/mixin/core/client/MixinMainMenu/minceraftRoll org/dimdev/rift/mixin/core/client/MixinMainMenu/field_73974_b
+FD: org/dimdev/rift/mixin/core/client/MixinMainMenu/MINECRAFT_TITLE_TEXTURES org/dimdev/rift/mixin/core/client/MixinMainMenu/field_110352_y
+FD: org/dimdev/rift/mixin/core/client/MixinMainMenu/MINECRAFT_TITLE_EDITION org/dimdev/rift/mixin/core/client/MixinMainMenu/field_194400_H
+FD: org/dimdev/rift/mixin/core/client/MixinMainMenu/splashText org/dimdev/rift/mixin/core/client/MixinMainMenu/field_73975_c
+FD: org/dimdev/rift/mixin/core/client/MixinMainMenu/widthCopyrightRest org/dimdev/rift/mixin/core/client/MixinMainMenu/field_193979_N
+FD: org/dimdev/rift/mixin/core/client/MixinMainMenu/widthCopyright org/dimdev/rift/mixin/core/client/MixinMainMenu/field_193978_M
+FD: org/dimdev/rift/mixin/core/client/MixinMainMenu/openGLWarning1 org/dimdev/rift/mixin/core/client/MixinMainMenu/field_92025_p
+FD: org/dimdev/rift/mixin/core/client/MixinMainMenu/openGLWarningX1 org/dimdev/rift/mixin/core/client/MixinMainMenu/field_92022_t
+FD: org/dimdev/rift/mixin/core/client/MixinMainMenu/openGLWarningY1 org/dimdev/rift/mixin/core/client/MixinMainMenu/field_92021_u
+FD: org/dimdev/rift/mixin/core/client/MixinMainMenu/openGLWarningX2 org/dimdev/rift/mixin/core/client/MixinMainMenu/field_92020_v
+FD: org/dimdev/rift/mixin/core/client/MixinMainMenu/openGLWarningY2 org/dimdev/rift/mixin/core/client/MixinMainMenu/field_92019_w
+FD: org/dimdev/rift/mixin/core/client/MixinMainMenu/openGLWarning2 org/dimdev/rift/mixin/core/client/MixinMainMenu/field_146972_A
+FD: org/dimdev/rift/mixin/core/client/MixinMainMenu/openGLWarning2Width org/dimdev/rift/mixin/core/client/MixinMainMenu/field_92024_r
+FD: org/dimdev/rift/mixin/core/client/MixinMainMenu/realmsNotification org/dimdev/rift/mixin/core/client/MixinMainMenu/field_183503_M
+FD: org/dimdev/rift/mixin/core/MixinMinecraftServer/worlds org/dimdev/rift/mixin/core/MixinMinecraftServer/field_71305_c
+FD: org/dimdev/rift/mixin/core/MixinVanillaPack/basePath org/dimdev/rift/mixin/core/MixinVanillaPack/field_199754_a
+FD: org/dimdev/rift/mixin/hook/client/MixinGameSettings/keyBindings org/dimdev/rift/mixin/hook/client/MixinGameSettings/field_74324_K
+FD: org/dimdev/rift/mixin/hook/client/MixinMinecraft/resourcePackRepository org/dimdev/rift/mixin/hook/client/MixinMinecraft/field_110448_aq
+FD: org/dimdev/rift/mixin/hook/client/MixinMinecraft/profiler org/dimdev/rift/mixin/hook/client/MixinMinecraft/field_71424_I
+FD: org/dimdev/rift/mixin/hook/client/MixinModelBakery/LOCATIONS_BUILTIN_TEXTURES org/dimdev/rift/mixin/hook/client/MixinModelBakery/field_177602_b
+FD: org/dimdev/rift/mixin/hook/client/MixinNetHandlerPlayClient/world org/dimdev/rift/mixin/hook/client/MixinNetHandlerPlayClient/field_147300_g
+FD: org/dimdev/rift/mixin/hook/client/MixinNetHandlerPlayClient/profile org/dimdev/rift/mixin/hook/client/MixinNetHandlerPlayClient/field_175107_d
+FD: org/dimdev/rift/mixin/hook/client/MixinNetHandlerPlayClient/client org/dimdev/rift/mixin/hook/client/MixinNetHandlerPlayClient/field_147299_f
+FD: org/dimdev/rift/mixin/hook/client/MixinNetHandlerPlayClient/recipeManager org/dimdev/rift/mixin/hook/client/MixinNetHandlerPlayClient/field_199528_o
+FD: org/dimdev/rift/mixin/hook/client/MixinNetHandlerPlayClient/advancementManager org/dimdev/rift/mixin/hook/client/MixinNetHandlerPlayClient/field_191983_k
+FD: org/dimdev/rift/mixin/hook/client/MixinNetHandlerPlayClient/netManager org/dimdev/rift/mixin/hook/client/MixinNetHandlerPlayClient/field_147302_e
+FD: org/dimdev/rift/mixin/hook/client/MixinNetHandlerPlayClient/commandDispatcher org/dimdev/rift/mixin/hook/client/MixinNetHandlerPlayClient/field_195517_n
+FD: org/dimdev/rift/mixin/hook/client/MixinNetHandlerPlayClient/clientSuggestionProvider org/dimdev/rift/mixin/hook/client/MixinNetHandlerPlayClient/field_195516_l
+FD: org/dimdev/rift/mixin/hook/client/MixinNetHandlerPlayClient/networkTagManager org/dimdev/rift/mixin/hook/client/MixinNetHandlerPlayClient/field_199725_m
+FD: org/dimdev/rift/mixin/hook/client/MixinNetHandlerPlayClient/nbtQueryManager org/dimdev/rift/mixin/hook/client/MixinNetHandlerPlayClient/field_211524_l
+FD: org/dimdev/rift/mixin/hook/client/MixinRenderManager/entityRenderMap org/dimdev/rift/mixin/hook/client/MixinRenderManager/field_78729_o
+FD: org/dimdev/rift/mixin/hook/client/MixinTileEntityRendererDispatcher/renderers org/dimdev/rift/mixin/hook/client/MixinTileEntityRendererDispatcher/field_147559_m
+FD: org/dimdev/rift/mixin/hook/MixinCPacketCustomPayload/channel org/dimdev/rift/mixin/hook/MixinCPacketCustomPayload/field_149562_a
+FD: org/dimdev/rift/mixin/hook/MixinCPacketCustomPayload/data org/dimdev/rift/mixin/hook/MixinCPacketCustomPayload/field_149561_c
+FD: org/dimdev/rift/mixin/hook/MixinEntityType$Builder/serializable org/dimdev/rift/mixin/hook/MixinEntityType$Builder/field_200710_b
+FD: org/dimdev/rift/mixin/hook/MixinEntityType$Builder/entityClass org/dimdev/rift/mixin/hook/MixinEntityType$Builder/field_201759_a
+FD: org/dimdev/rift/mixin/hook/MixinEntityType$Builder/factory org/dimdev/rift/mixin/hook/MixinEntityType$Builder/field_200709_a
+FD: org/dimdev/rift/mixin/hook/MixinEntityType$Builder/summonable org/dimdev/rift/mixin/hook/MixinEntityType$Builder/field_200711_c
+FD: org/dimdev/rift/mixin/hook/MixinFeature/STRUCTURES org/dimdev/rift/mixin/hook/MixinFeature/field_202300_at
+FD: org/dimdev/rift/mixin/hook/MixinItemTool/effectiveBlocks org/dimdev/rift/mixin/hook/MixinItemTool/field_150914_c
+FD: org/dimdev/rift/mixin/hook/MixinMinecraftServer/resourcePacks org/dimdev/rift/mixin/hook/MixinMinecraftServer/field_195577_ad
+FD: org/dimdev/rift/mixin/hook/MixinMinecraftServer/profiler org/dimdev/rift/mixin/hook/MixinMinecraftServer/field_71304_b
+FD: org/dimdev/rift/mixin/hook/MixinMinecraftServer/worlds org/dimdev/rift/mixin/hook/MixinMinecraftServer/field_71305_c
+FD: org/dimdev/rift/mixin/hook/MixinNetHandlerPlayServer/server org/dimdev/rift/mixin/hook/MixinNetHandlerPlayServer/field_147367_d
+FD: org/dimdev/rift/mixin/hook/MixinNetHandlerPlayServer/player org/dimdev/rift/mixin/hook/MixinNetHandlerPlayServer/field_147369_b
+FD: org/dimdev/rift/mixin/hook/MixinNetHandlerPlayServer/netManager org/dimdev/rift/mixin/hook/MixinNetHandlerPlayServer/field_147371_a
+FD: org/dimdev/rift/mixin/hook/MixinOverworldBiomeProvider/biomes org/dimdev/rift/mixin/hook/MixinOverworldBiomeProvider/field_205007_e
+FD: org/dimdev/rift/mixin/hook/MixinRecipeManager/recipes org/dimdev/rift/mixin/hook/MixinRecipeManager/field_199522_d
+FD: org/dimdev/rift/mixin/hook/MixinTileEntityType/LOGGER org/dimdev/rift/mixin/hook/MixinTileEntityType/field_206866_A
+FD: org/dimdev/rift/mixin/optifine/MixinVanillaPack/basePath org/dimdev/rift/mixin/optifine/MixinVanillaPack/field_199754_a
+MD: org/dimdev/rift/mixin/core/client/MixinBlockFluidRenderer/isAdjacentFluidSameAs (Lnet/minecraft/world/IBlockReader;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/EnumFacing;Lnet/minecraft/fluid/IFluidState;)Z org/dimdev/rift/mixin/core/client/MixinBlockFluidRenderer/func_209557_a (Lnet/minecraft/world/IBlockReader;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/EnumFacing;Lnet/minecraft/fluid/IFluidState;)Z
+MD: org/dimdev/rift/mixin/core/client/MixinBlockFluidRenderer/func_209556_a (Lnet/minecraft/world/IBlockReader;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/EnumFacing;F)Z org/dimdev/rift/mixin/core/client/MixinBlockFluidRenderer/func_209556_a (Lnet/minecraft/world/IBlockReader;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/EnumFacing;F)Z
+MD: org/dimdev/rift/mixin/core/client/MixinBlockFluidRenderer/getFluidHeight (Lnet/minecraft/world/IWorldReaderBase;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/fluid/Fluid;)F org/dimdev/rift/mixin/core/client/MixinBlockFluidRenderer/func_204504_a (Lnet/minecraft/world/IWorldReaderBase;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/fluid/Fluid;)F
+MD: org/dimdev/rift/mixin/core/client/MixinBlockFluidRenderer/getCombinedLightUpMax (Lnet/minecraft/world/IWorldReader;Lnet/minecraft/util/math/BlockPos;)I org/dimdev/rift/mixin/core/client/MixinBlockFluidRenderer/func_204835_a (Lnet/minecraft/world/IWorldReader;Lnet/minecraft/util/math/BlockPos;)I
+MD: org/dimdev/rift/mixin/core/client/MixinBlockFluidRenderer/render (Lnet/minecraft/world/IWorldReader;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/client/renderer/BufferBuilder;Lnet/minecraft/fluid/IFluidState;)Z org/dimdev/rift/mixin/core/client/MixinBlockFluidRenderer/func_205346_a (Lnet/minecraft/world/IWorldReader;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/client/renderer/BufferBuilder;Lnet/minecraft/fluid/IFluidState;)Z
+MD: org/dimdev/rift/mixin/core/client/MixinClientBrandRetriever/getClientModName ()Ljava/lang/String; org/dimdev/rift/mixin/core/client/MixinClientBrandRetriever/getClientModName ()Ljava/lang/String;
+MD: org/dimdev/rift/mixin/core/client/MixinMainMenu/switchToRealms ()V org/dimdev/rift/mixin/core/client/MixinMainMenu/func_140005_i ()V
+MD: org/dimdev/rift/mixin/core/client/MixinMainMenu/areRealmsNotificationsEnabled ()Z org/dimdev/rift/mixin/core/client/MixinMainMenu/func_183501_a ()Z
+MD: org/dimdev/rift/mixin/core/MixinMinecraftServer/getServerModName ()Ljava/lang/String; org/dimdev/rift/mixin/core/MixinMinecraftServer/getServerModName ()Ljava/lang/String;
+MD: org/dimdev/rift/mixin/core/MixinVanillaPack/getInputStreamVanilla (Lnet/minecraft/resources/ResourcePackType;Lnet/minecraft/util/ResourceLocation;)Ljava/io/InputStream; org/dimdev/rift/mixin/core/MixinVanillaPack/func_195782_c (Lnet/minecraft/resources/ResourcePackType;Lnet/minecraft/util/ResourceLocation;)Ljava/io/InputStream;
+MD: org/dimdev/rift/mixin/hook/MixinAnvilSaveHandler/getChunkLoader (Lnet/minecraft/world/dimension/Dimension;)Lnet/minecraft/world/chunk/storage/IChunkLoader; org/dimdev/rift/mixin/hook/MixinAnvilSaveHandler/func_75763_a (Lnet/minecraft/world/dimension/Dimension;)Lnet/minecraft/world/chunk/storage/IChunkLoader;
+MD: org/dimdev/rift/mixin/hook/MixinEntityType$Builder/build (Ljava/lang/String;)Lnet/minecraft/entity/EntityType; org/dimdev/rift/mixin/hook/MixinEntityType$Builder/func_206830_a (Ljava/lang/String;)Lnet/minecraft/entity/EntityType;
+MD: org/dimdev/rift/mixin/hook/MixinEnumConnectionState/registerPacket (Lnet/minecraft/network/EnumPacketDirection;Ljava/lang/Class;)Lnet/minecraft/network/EnumConnectionState; org/dimdev/rift/mixin/hook/MixinEnumConnectionState/func_179245_a (Lnet/minecraft/network/EnumPacketDirection;Ljava/lang/Class;)Lnet/minecraft/network/EnumConnectionState;
+MD: org/dimdev/rift/mixin/hook/MixinMinecraftServer/getWorld (Lnet/minecraft/world/dimension/DimensionType;)Lnet/minecraft/world/WorldServer; org/dimdev/rift/mixin/hook/MixinMinecraftServer/func_71218_a (Lnet/minecraft/world/dimension/DimensionType;)Lnet/minecraft/world/WorldServer;
+MD: org/dimdev/rift/mixin/hook/MixinMinecraftServer/getGameType ()Lnet/minecraft/world/GameType; org/dimdev/rift/mixin/hook/MixinMinecraftServer/func_71265_f ()Lnet/minecraft/world/GameType;
+MD: org/dimdev/rift/mixin/hook/MixinMinecraftServer/isSinglePlayer ()Z org/dimdev/rift/mixin/hook/MixinMinecraftServer/func_71264_H ()Z
+MD: org/dimdev/rift/mixin/hook/MixinTileEntityType/register (Ljava/lang/String;Lnet/minecraft/tileentity/TileEntityType$Builder;)Lnet/minecraft/tileentity/TileEntityType; org/dimdev/rift/mixin/hook/MixinTileEntityType/func_200966_a (Ljava/lang/String;Lnet/minecraft/tileentity/TileEntityType$Builder;)Lnet/minecraft/tileentity/TileEntityType;
+MD: org/dimdev/rift/mixin/optifine/MixinVanillaPack/getInputStreamVanilla (Lnet/minecraft/resources/ResourcePackType;Lnet/minecraft/util/ResourceLocation;)Ljava/io/InputStream; org/dimdev/rift/mixin/optifine/MixinVanillaPack/func_195782_c (Lnet/minecraft/resources/ResourcePackType;Lnet/minecraft/util/ResourceLocation;)Ljava/io/InputStream;
